@@ -1,15 +1,10 @@
-// =============================================================
-//  Sistema de Flashcards de Estudo - Schema do banco (PRONTO)
-//  NÃO É NECESSÁRIO ALTERAR ESTE ARQUIVO DURANTE A PROVA.
-// =============================================================
-
 generator client {
   provider = "prisma-client-js"
 }
 
 datasource db {
   provider = "sqlite"
-  url      = "file:./dev.db"
+  url = "file:./dev.db"
 }
 
 // Baralho: agrupa vários cards (1 Deck -> N Cards)
